@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "destinations",
+  "info": {
+    "singularName": "destination",
+    "pluralName": "destinations",
+    "displayName": "Destinations"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Images": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "required": false
+    }
+  }
+}
